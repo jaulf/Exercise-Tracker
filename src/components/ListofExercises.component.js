@@ -75,14 +75,14 @@ export default function ListofExercises() {
 
             <div className='md:px-20 md:py-24 px-2 py-16 flex flex-col md:flex-row justify-center items-center'>
                 <div class='bg-gray-400 w-full md:max-w-sm h-px'></div>
-                <h3 class='uppercase py-3 whitespace-nowrap px-12 block font-light tracking-wider'>Howard's personal Exercises</h3>
+                <h3 class='uppercase py-3 whitespace-nowrap px-12 block font-light tracking-wider'>Personal Exercises</h3>
                 <div class='bg-gray-400 w-full md:max-w-sm h-px'></div>
             </div>
 
 
             <div class='grid lg:grid-cols-3 gap-10 pt-5 pb-10 px-5 sm:px-10 md:px-20 '>
                 
-               {/* <div class='card '>
+               <div class='card '>
                     <img class=' shad w-full object-contain h-32 sm:h-48' src={chest} alt='chest workout' />
                     <div class='p-5'>
                         <h1 class='py-1 text-lg font-normal'>Upper body Workouts</h1>
@@ -132,7 +132,8 @@ export default function ListofExercises() {
                         </svg>
                         <span>15 mins</span>
                     </div>
-                </div> */}
+                </div>
+                
                 <Link to='/create-exercise' class='cursor-pointer bg-white flex flex-col justify-end h-auto rounded shadow-lg overflow-hidden '>
                     <div className='bg-gray-50 p-16 text-gray-800 flex items-center justify-center h-full '>
                         <svg className=' h-14' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -143,7 +144,7 @@ export default function ListofExercises() {
                 </Link>
 
                 {/* Modal */}
-                    <div class='flex items-center justify-center inset-0 fixed z-10 w-full h-full overflow-auto bg-gray-500 bg-opacity-75' id='modal'>                    
+                    <div class='hidden items-center justify-center inset-0 fixed z-10 w-full h-full overflow-auto bg-gray-500 bg-opacity-75' id='modal'>                    
                         <div class='overflow-auto px-3 w-full sm:max-w-md md:max-w-lg rounded-lg' id='modal-content'>
 
                             <div>
