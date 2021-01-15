@@ -16,3 +16,22 @@
 .badge {
     @apply bg-purple-50 text-purple-500 text-xs uppercase font-bold rounded-full p-2 absolute top-0 ml-3 mt-3;
 }
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+/* Track */
+::-webkit-scrollbar-track {
+background: #d1d1d1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #555; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: #444; 
+}
