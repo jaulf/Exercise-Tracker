@@ -17,7 +17,7 @@ export default function Navbar() {
 
     return (
         <div>
-            <nav className=' lg:px-20 lg:py-8 pr-2 pl-4 py-4 font-nuni lg:flex items-center lg:justify-between text-gray-800 '>
+            <nav className='whitespace-nowrap lg:px-20 lg:py-8 pr-2 pl-4 py-4 font-nuni lg:flex items-center lg:justify-between text-gray-800 '>
                 <div className='flex justify-between text-2xl font-bold'>
                     <h1>Fitness Tempo</h1>
                     <div onClick={displayNav} class='px-4 cursor-pointer lg:hidden'>
@@ -40,7 +40,7 @@ export default function Navbar() {
                 <span id='menu2' class='hidden lg:flex'>
                 {
                     function diss() {
-                        if ( 1 == 2) {
+                        if ( 1 !== 2) {
                             return (
                                 <ul className=' px-8 lg:flex items-center'>
                                     <li className=' font-semibold py-4 flex items-center lg:mx-3'>
