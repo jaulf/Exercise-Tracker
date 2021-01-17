@@ -26,7 +26,7 @@ export default function Navbar() {
                         </svg>
                     </div>
                 </div>
-                <ul id='menu' className='lg:uppercase lg:font-light lg:text-sm normal-case hidden lg:flex lg:flex-row text-base tracking-wider pt-4 px-8 lg:px-0'>
+                <ul id='menu' className='lg:uppercase lg:font-light lg:text-sm normal-case hidden lg:items-center lg:flex lg:flex-row text-base tracking-wider pt-4 px-8 lg:px-0'>
                     <li class='lg:px-11 lg:py-0  py-4 '>
                         <Link to='/' >Home</Link>
                     </li>
