@@ -89,7 +89,7 @@ export default function CreateExercise() {
                     <div className='lg:py-24 py-16'>
 
                         <div class='pt-7 pb-24 text-center'>
-                            <h1 class='font-bold text-gray-900 text-xl'>List Of Exercises</h1>
+                            <h1 class='font-bold text-gray-900 text-xl'>List Of Added Exercises</h1>
                         </div>
                         
                         <div class=' shadow-lg rounded-md w-full max-w-5xl'>
