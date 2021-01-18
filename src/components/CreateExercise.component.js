@@ -94,63 +94,67 @@ export default function CreateExercise() {
                         
                         <div class=' shadow-lg rounded-md w-full max-w-5xl'>
 
-                        <div class='border-gray-100 border-t px-2 py-4 lg:p-6 flex items-center justify-between'>
+                            <div class='border-gray-100 border-t px-4 py-4 lg:p-6 flex items-center justify-between'>
                                 <div class=''>
-                                    <p className='flex justify-center items-center bg-purple-600 text-white h-7 w-7 md:h-10 md:w-10 rounded-full'>1</p>
+                                    <p className='flex text-sm lg:text-base justify-center items-center bg-purple-600 text-white h-7 w-7 lg:h-10 lg:w-10 rounded-full'>1</p>
                                 </div>
                                 <div class=''>
                                     <p className='py-2 md:font-semibold'>Push Ups</p>
-                                    <div className='py-2 tracking-wide md:tracking-wider text-purple-600 flex flex-col md:flex-row'>
+                                    <div className='py-2 text-sm lg:text-base tracking-wide md:tracking-wider text-purple-600 flex flex-col md:flex-row'>
                                         <p className='py-1 md:py-0 md:pr-6'>45secs exercise duration</p>
                                         <p className='py-1 md:py-0 md:px-6'>15secs rest duration</p>
                                     </div>
                                 </div>
                                 <div class=''>
-                                    <p className='flex lg:hidden justify-center items-center bg-red-600 text-white h-7 w-7 md:h-10 md:w-10 rounded-full'>
-                                    <svg class='h-5' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <p className='flex lg:hidden justify-center items-center bg-red-600 text-white h-7 w-7 lg:h-10 lg:w-10 rounded-full'>
+                                    <svg class='h-4' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                    </svg></p>
+                                    </svg>
+                                    </p>
                                     <p className='hidden lg:block bg-red-600 text-white rounded-full px-6 py-3'>Cancel</p>
                                 </div>
                             </div>
-                            <div class='border-gray-100 border-t px-2 py-4 lg:p-6 flex items-center justify-between'>
+                            <div class='border-gray-100 border-t px-4 py-4 lg:p-6 flex items-center justify-between'>
                                 <div class=''>
-                                    <p className='flex justify-center items-center bg-purple-600 text-white h-7 w-7 md:h-10 md:w-10 rounded-full'>2</p>
+                                    <p className='flex text-sm lg:text-base justify-center items-center bg-purple-600 text-white h-7 w-7 lg:h-10 lg:w-10 rounded-full'>2</p>
                                 </div>
                                 <div class=''>
-                                    <p className='py-2 md:font-semibold'>Pull Ups</p>
-                                    <div className='py-2 tracking-wide md:tracking-wider text-purple-600 flex flex-col md:flex-row'>
+                                    <p className='py-2 md:font-semibold'>Bench Press</p>
+                                    <div className='py-2 text-sm lg:text-base tracking-wide md:tracking-wider text-purple-600 flex flex-col md:flex-row'>
                                         <p className='py-1 md:py-0 md:pr-6'>45secs exercise duration</p>
                                         <p className='py-1 md:py-0 md:px-6'>15secs rest duration</p>
                                     </div>
                                 </div>
-                                <div class=''> 
-                                    <p className='flex lg:hidden justify-center items-center bg-red-600 text-white h-7 w-7 md:h-10 md:w-10 rounded-full'>
-                                    <svg class='h-5' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <div class=''>
+                                    <p className='flex lg:hidden justify-center items-center bg-red-600 text-white h-7 w-7 lg:h-10 lg:w-10 rounded-full'>
+                                    <svg class='h-4' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                    </svg></p>
+                                    </svg>
+                                    </p>
                                     <p className='hidden lg:block bg-red-600 text-white rounded-full px-6 py-3'>Cancel</p>
                                 </div>
                             </div>
-                            <div class='border-gray-100 border-t px-2 py-4 lg:p-6 flex items-center justify-between'>
+                            <div class='border-gray-100 border-t px-4 py-4 lg:p-6 flex items-center justify-between'>
                                 <div class=''>
-                                    <p className='flex justify-center items-center bg-purple-600 text-white h-7 w-7 md:h-10 md:w-10 rounded-full'>3</p>
+                                    <p className='flex text-sm lg:text-base justify-center items-center bg-purple-600 text-white h-7 w-7 lg:h-10 lg:w-10 rounded-full'>3</p>
                                 </div>
                                 <div class=''>
                                     <p className='py-2 md:font-semibold'>Mountain Climbers</p>
-                                    <div className='py-2 tracking-wide md:tracking-wider text-purple-600 flex flex-col md:flex-row'>
+                                    <div className='py-2 text-sm lg:text-base tracking-wide md:tracking-wider text-purple-600 flex flex-col md:flex-row'>
                                         <p className='py-1 md:py-0 md:pr-6'>45secs exercise duration</p>
                                         <p className='py-1 md:py-0 md:px-6'>15secs rest duration</p>
                                     </div>
                                 </div>
                                 <div class=''>
-                                    <p className='flex lg:hidden justify-center items-center bg-red-600 text-white h-7 w-7 md:h-10 md:w-10 rounded-full'>
-                                    <svg class='h-5' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <p className='flex lg:hidden justify-center items-center bg-red-600 text-white h-7 w-7 lg:h-10 lg:w-10 rounded-full'>
+                                    <svg class='h-4' xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                                    </svg></p>
+                                    </svg>
+                                    </p>
                                     <p className='hidden lg:block bg-red-600 text-white rounded-full px-6 py-3'>Cancel</p>
                                 </div>
                             </div>
+
                         </div>
 
                     </div>
